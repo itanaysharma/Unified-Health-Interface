@@ -5,28 +5,28 @@ export default function Navbar() {
     <header>
       <img className="nav--logo" src="./UNI_logo.png" alt="no" />
       <nav className="nav">
-        <ul className="nav__links">
-          <li>
+        <div className="nav__links">
+          <div>
             <a href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react">
               Medications
             </a>
-          </li>
-          <li>
+          </div>
+          <div>
             <a href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react">
               Test Reports
             </a>
-          </li>
-          <li>
+          </div>
+          <div>
             <a href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react">
               Diseases
             </a>
-          </li>
-          <li>
+          </div>
+          <div>
             <a href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react">
               Hospitals
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
 
         {/* <h3>
           <button>Medications</button>
