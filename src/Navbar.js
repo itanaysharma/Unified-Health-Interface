@@ -33,22 +33,6 @@ export default function Navbar() {
               </a>
             </div>
           </div>
-
-          {/* <h3>
-          <button>Medications</button>
-        </h3>
-        <h3>
-          <button>Test Reports</button>
-        </h3>
-        <h3>
-          <button>Diseases</button>
-        </h3>
-        <h3>
-          <button>Hospitals</button>
-        </h3>
-        <h3>
-          <button>Login/SignUp</button>
-        </h3> */}
         </nav>
         <button className="button-3">
           <a
