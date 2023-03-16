@@ -34,14 +34,7 @@ export default function Navbar() {
             </div>
           </div>
         </nav>
-        <button className="button-3">
-          <a
-            className="inside-button-3"
-            href="https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react"
-          >
-            Login/SignUp
-          </a>
-        </button>
+        <button className="button-3">Login/SignUp</button>
         <div className="react">
           <h1>This is search field</h1>
           <label htmlFor="search">Search :</label>
