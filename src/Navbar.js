@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
+// import { ReactComponent as Check } from "./UNI_logo.svg"; Can we used as SVG image
 export default function Navbar() {
-  const [searchTerm, setSearchTerm] = React.useState("");
-  const handleChange = (event) => {
-    setSearchTerm(event.target.value);
-    console.log(searchTerm);
-  };
   return (
     <>
       <header>
         <img className="nav--logo" src="./UNI_logo.png" alt="no" />
+
+        {/* <Check height="20px" width="8px" /> */}
         <nav className="nav">
           <div className="nav__links">
             <div>
@@ -35,14 +33,6 @@ export default function Navbar() {
           </div>
         </nav>
         <button className="button-3">Login/SignUp</button>
-        <div className="react">
-          <h1>This is search field</h1>
-          <label htmlFor="search">Search :</label>
-          <input id="search" type="text" onChange={handleChange} />
-          <h2>
-            Searching for <strong>{searchTerm}</strong>
-          </h2>
-        </div>
       </header>
     </>
   );
